@@ -1,0 +1,21 @@
+$primaryColor:rgb(39, 146, 146);
+$secondaryColor: rgb(19, 53, 53);
+
+
+html,body {
+    font-family: Monserrat;
+}
+h1 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: $primaryColor;
+    color: $secondaryColor;
+}
+
+h2 {
+    color: aqua;
+    display: block;
+    background: url("../images/rakhimov-logo.png");
+    height: 500px;
+}

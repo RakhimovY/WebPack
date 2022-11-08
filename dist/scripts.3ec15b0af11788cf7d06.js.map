@@ -1,0 +1,21 @@
+{
+    "version": 3,
+    "file": "scripts.3ec15b0af11788cf7d06.js",
+    "mappings": "+WAEA,IAKMA,E,+VAAO,CAAH,CACRC,KAAM,aACNC,IAAK,IAPW,CAChBC,SAAU,KACVC,UAAW,UASbC,QAAQC,IAAIN,E",
+    "sources": [
+        "webpack://webpack/./src/index.js"
+    ],
+    "sourcesContent": [
+        "import \"./styles/index.scss\";\r\n\r\nconst userState = {\r\n  language: \"JS\",\r\n  framework: \"React\",\r\n};\r\n\r\nconst user = {\r\n  name: \"Yerkebulan\",\r\n  age: 23,\r\n  ...userState,\r\n};\r\n\r\nconsole.log(user);\r\n"
+    ],
+    "names": [
+        "user",
+        "name",
+        "age",
+        "language",
+        "framework",
+        "console",
+        "log"
+    ],
+    "sourceRoot": ""
+}
